@@ -1,0 +1,31 @@
+{
+  "name": "genpark-voice-first-logistics-coordinator-skill",
+  "version": "1.0.0",
+  "description": "GenPark AI Agent Skill - Voice-first autonomous logistics, freight dispatch, and delivery status coordinator.",
+  "author": "genpark",
+  "category": "operations",
+  "tags": [
+    "logistics",
+    "voice-agent",
+    "dispatch",
+    "order-coordination"
+  ],
+  "inputs": {
+    "voice_transcript": {
+      "type": "string"
+    },
+    "shipment_id": {
+      "type": "string"
+    }
+  },
+  "outputs": {
+    "coordination_status": {
+      "type": "string"
+    },
+    "action_dispatched": {
+      "type": "string"
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
